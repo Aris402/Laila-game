@@ -12,12 +12,12 @@ public class CloudSpawner : MonoBehaviour
     public Vector3 startPosition;
     void Start()
     {
-        timer = 2.5f;
-        timerVariation = 1;
+        timer = 3.5f;
+        timerVariation = 1f;
     }
     void Update()
     {
-        startPosition = new Vector3(0.06417894f, Random.Range(-0.5963413f, -3.02f));
+        startPosition = new Vector3(2.276435f, Random.Range(0.33f, -4.19f), 91f);
         if(Time.time > instTime && !stopped){
             Instantiate(clouds[Random.Range(0, clouds.Length)], startPosition, Quaternion.identity);
             instTime = Time.time + Random.Range(timer - timerVariation, timer + timerVariation);

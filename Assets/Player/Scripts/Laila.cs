@@ -10,8 +10,8 @@ public class Laila : MonoBehaviour
     CloudSpawner clouds;
     CloudsMovement cloudsmove;
     float jumpSpeed;
-    float timeToPeak = 0.32f;
-    float maxHeight = 1.8f;
+    float timeToPeak = 0.33f;
+    float maxHeight = 2.3f;
     public bool Jumping;
     public bool gameover = false;
     Rigidbody2D corpo;

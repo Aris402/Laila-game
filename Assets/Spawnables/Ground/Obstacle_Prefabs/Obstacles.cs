@@ -16,7 +16,7 @@ public class Obstacles : MonoBehaviour
     {
         speed = gm.speed;
         transform.position += Vector3.left * speed * Time.deltaTime;
-        if(transform.position.x <= -11f){
+        if(transform.position.x <= -13.55f){
             Destroy(gameObject);
         }
     }

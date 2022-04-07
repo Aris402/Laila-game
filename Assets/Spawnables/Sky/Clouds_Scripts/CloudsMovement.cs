@@ -11,12 +11,12 @@ public class CloudsMovement : MonoBehaviour
     {
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         cloudSpawner = FindObjectOfType<CloudSpawner>();
-        speed = 2f;
+        speed = 1f;
     }
     void Update()
     {
         transform.position += speed * Vector3.left * Time.deltaTime;
-        if(transform.position.x < screenBounds.x - 12f){
+        if(transform.position.x < screenBounds.x - 17f){
             Destroy(gameObject);
         }
     }
