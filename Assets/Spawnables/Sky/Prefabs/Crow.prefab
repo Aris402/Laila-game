@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8822049859832556351}
   - component: {fileID: 7149608912412233294}
   - component: {fileID: 8652942464924348989}
+  - component: {fileID: 3793372324662812602}
+  - component: {fileID: -3741268714937038008}
   m_Layer: 6
   m_Name: Crow
   m_TagString: Untagged
@@ -132,4 +134,32 @@ CapsuleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.3659663, y: 0.26011544}
   m_Size: {x: 0.66443163, y: 0.16464473}
+  m_Direction: 1
+--- !u!114 &3793372324662812602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3309502345371057651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89947b22e547beb489334f33300c15ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &-3741268714937038008
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3309502345371057651}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.3801521, y: 0.097611755}
+  m_Size: {x: 0.21083039, y: 0.15285164}
   m_Direction: 1
